@@ -27,7 +27,7 @@ export async function run(provider: NetworkProvider) {
                 signature: beginCell().storeBuffer(Buffer.from(testData.signature, 'hex')).endCell().beginParse()
             }
         );
-        console.log('Successfully initiated signature-based minting');
+        console.log('Successfully signature-based minting');
     } catch (error) {
         console.error("Error:", error);
     }
