@@ -14,6 +14,7 @@ export async function run(provider: NetworkProvider) {
     };
 
     try {
+        console.log("testData", testData);
         const contract = provider.open(MinimalReproducibleExample.fromAddress(Address.parse(testData.contractAddress)));
         await contract.send(
             provider.sender(),
