@@ -37,9 +37,8 @@ This deploys the contract to the network.
 This script verifies the data signature using the deployed contract.
 
 ### Run Tests
-Execute the test suite:
-   ```sh
-   npx blueprint test
-
+1. Execute the test suite:
+      ```sh
+      npx blueprint test
 This will run the test scripts to validate contract functionality.
 
