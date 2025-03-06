@@ -40,5 +40,6 @@ This script verifies the data signature using the deployed contract.
 Execute the test suite:
    ```sh
    npx blueprint test
+
 This will run the test scripts to validate contract functionality.
 
