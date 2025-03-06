@@ -1,2 +1,14 @@
 # Tact-checkDataSignature
-This repo contains tact code which verifies the signature and return true if the signature is correctly generated off-chain using @ton/crypto with Ed25519 and matches the data reconstructed in the smart contract.
+
+This repository contains a Tact contract to check data signatures. It provides scripts to deploy the contract and verify signatures, along with test cases to validate functionality.
+
+## Getting Started
+
+Follow the steps below to set up and run the project.
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/Tact-checkDataSignature.git
+   cd Tact-checkDataSignature
