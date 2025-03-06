@@ -42,3 +42,17 @@ This script verifies the data signature using the deployed contract.
       npx blueprint test
 This will run the test scripts to validate contract functionality.
 
+
+
+```bash
+Tact-checkDataSignature/
+│── build/                         # Compiled contract files (after build)
+│── scripts/
+│   ├── deployMinimalReproducibleExample.ts  # Deploy contract script
+│   ├── minimalVerifySignature.ts           # Signature verification script
+│── tests/                         # Test cases for validation
+│── package.json                    # Project dependencies
+│── README.md                        # Project documentation
+```
+
+
